@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+    font-family: "Futura Light";
+    background: color(blue);
+    background-image: url("../assets/Fondo-opaco.png");
+  }
+  
